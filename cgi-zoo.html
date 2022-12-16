@@ -1,0 +1,127 @@
+<!--
+    * Project:	    A-03 : ANIMAL-SERVE – WEBSITE DEVELOPED USING CGI AND PHP
+    * Author:	    Hoang Phuc Tran - 8789102
+                   Canie Phung - 6983324
+    * Date:		    October 10, 2022
+    * Description: An application, as part of an HTML file, will prompt the user to enter a 
+    name, then prompt the user to choose an animal from the dropdown list. After that, it will
+     display an image and information about the animal.
+    */
+   -->
+   <!DOCTYPE html>
+   <html>
+   <head>
+       <title>Madagascar Zoo</title>
+       <script type="text/javascript">
+   
+         var inputAnimal = null;
+         var inputName = null;
+         var alpha = /^[a-zA-Z]+$/;
+         
+         /*
+          * Function: validateName()
+          * Description : This function will check the name from the user' input 
+          * Parameters : NONE
+          * Returns : it returns true if the name is valid, otherwise false
+          */
+         function validateName()
+         {
+           document.getElementById("errorMessage1").innerHTML ="";
+           inputName = document.getElementById("nameText").value;
+               if(inputName.length == 0)
+               {
+                   document.getElementById("errorMessage1").innerHTML = "Your name cannot be BLANK!";
+                   return false;
+               }
+               else 
+               {
+                 document.getElementById("section1").style.display = "None";
+                 document.getElementById("section2").style.display = "block";
+                 document.getElementById("name1").innerHTML = inputName;
+                   return true;
+               }
+         }
+   
+         /*
+          * Function: checkValidation()
+          * Description : This function will check whether an animal is selected or not before submitting the form
+          * Parameters : NONE
+          * Returns : NONE
+          */
+         function checkValidation()
+         {
+           document.getElementById("errorMessage2").innerHTML = "";
+           var name = validateName();
+           var animal = document.getElementById("animalSelect").value;
+           if(animal == "" || animal == null )
+           {
+             document.getElementById("errorMessage2").innerHTML = "You need to select an animal!";
+             event.preventDefault();
+           }
+         }
+   
+       </script>
+   </head>
+   
+   <body  style="background-color:#e6f0e6">
+       <form name="theZoo" action="\animals.exe" method="GET" >
+           <h1 style="margin-top: 100px;" align="center">Madagascar Zoo</h1>
+           <p align="center">
+             <br/><br/><br/>
+             Welcome to the Madagascar Zoo, a virtual zoo for kids (& adults). Discover amazing animals from all over the world without leaving your home!
+             <br/> We have many beautiful animals that we are expected you to explore.<br/> Please! Feel free to inquire about the six most popular animals in the zoo.
+             <br/><br/><br/>
+           </p>
+   
+           <div align="center" id="section1" style="background-color:#FFFFFF; padding: 20px;">
+             <table>
+               <tr>
+               <td width="30%" align="right" id="name">Enter your name</td>
+               <td>
+               <input id="nameText" name="nameInput" type="text" style="width:130px; margin-left: 15px;"/>
+               </td>
+               <td  width="50%" id="errorMessage1" style="color: red; margin-left: 15px;" ></td>
+             </tr>
+             <tr>
+               <td width="20%">
+               <td align="left"> 
+                 <input type="button" value="Enter" onclick="validateName();" />
+               </td>
+             </tr>
+             </table>
+           </div>
+   
+           
+             <div align="center" id="section2" style="display: none; background-color:#FFFFFF; padding: 20px;">
+               <table>
+                 <tr></tr>
+               <td width="30%" align="right" id="animal"><span id="name1"></span>! Please choose an animal</td>
+               <td>
+               <select id="animalSelect" name="animalInput" style="width:130px; margin-left: 15px;">
+                 <option hidden disabled selected value id="blank"></option>
+                 <option value="Alligator">Alligator</option>
+                 <option value="Bee">Bee</option>
+                 <option value="Duck">Duck</option>
+                 <option value="Elephant">Elephant</option>
+                 <option value="Tiger">Tiger</option>
+                 <option value="Monkey">Monkey</option>
+               </select>
+             </td>
+             
+               <td id="errorMessage2" width="50%" style="color: red"></td>
+   
+             </tr>
+             <tr>
+               <td width="20%">
+                 <td align="left"> 
+               <input id="button" type="submit" value="Submit" onclick="checkValidation();" />
+               </td>
+             </td>
+             </tr>
+             </table>
+             </div><br />
+   
+       </form>
+   
+   </body>
+   </html>

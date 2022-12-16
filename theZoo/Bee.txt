@@ -1,0 +1,11 @@
+<body  style="background-color:#e6f0e6">
+<i><img align='left' style='margin-left: 300px; margin-right: 50px; margin-top: 20px;' src="./theZoo/Bee.jpg";" width="350" height="350"></i>
+<p style='margin-top:20px;  margin-right: 300px;' >
+<b> <br/>Like all insects, a bee's body is divided into three parts: a head with two antennae, a thorax with six legs, and an abdomen. <br/>
+<br/><br/> All bees have branched hairs somewhere on their bodies and two pairs of wings. <br/>
+<br/><br/> Only female bees have stingers (which are modified ovipositors, organs originally used to lay eggs).</b>
+</p>
+
+
+
+

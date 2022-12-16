@@ -1,0 +1,13 @@
+<body  style="background-color:#e6f0e6">
+<i><img align='left' style='margin-left: 300px; margin-right: 50px; margin-top: 20px;' src="./theZoo/Elephant.jpg";" width="350" height="350"  ></i>
+<p style='margin-top:20px; margin-right:300px;' >
+<b> <br/>Elephants are the largest land mammals on earth and have distinctly massive bodies, large ears, and long trunks.  <br/>
+<br/>They use their trunks to pick up objects, trumpet warnings, greet other elephants, or suck up water for drinking or bathing, among other uses. <br/>
+</p>
+
+
+
+
+
+
+

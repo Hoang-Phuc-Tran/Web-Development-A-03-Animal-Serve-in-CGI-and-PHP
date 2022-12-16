@@ -1,0 +1,10 @@
+<body  style="background-color:#e6f0e6">
+<i ><img align='left' style='margin-left: 300px; margin-right: 50px; margin-top: 20px;' src="./theZoo/Duck.jpg";" width="350" height="350"  ></i>
+<p style='margin-top:20px; margin-right: 300px;' >
+<b> <br/>Duck, any of various species of relatively small, short-necked, large-billed waterfowl.  <br/>
+<br/><br/> In true ducks, those classified in the subfamily Anatinae in the waterfowl family Anatidae.<br/>
+<br/><br/> The legs are placed rearward, as in swans, rather than forward, as in geese.  <br/>
+<br/><br/>The result is a distinctive waddling gait.</b>
+</p>
+
+

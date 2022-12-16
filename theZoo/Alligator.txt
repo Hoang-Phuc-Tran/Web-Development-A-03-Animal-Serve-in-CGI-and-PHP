@@ -1,0 +1,13 @@
+<body  style="background-color:#e6f0e6">
+<i><img align='left' style='margin-left: 300px; margin-right: 50px; margin-top: 20px;' src="./theZoo/Alligator.jpg";" width="350" height="350"  ></i>
+<p style='margin-top:20px; margin-right: 300px;' >
+<b> <br/>Alligators have a long, rounded snout that has upward facing nostrils at the end; this allows breathing to occur while the rest of the body is underwater.  <br/>
+<br/><br/> The young have bright yellow stripes on the tail; adults have dark stripes on the tail.  <br/>
+<br/> <br/>It's easy to distinguish an alligator from a crocodile by the teeth..</b>
+</p>
+
+
+
+
+
+

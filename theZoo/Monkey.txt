@@ -1,0 +1,8 @@
+<body  style="background-color:#e6f0e6">
+<i><img align='left' style='margin-left: 300px; margin-right: 50px; margin-top: 20px;'src="./theZoo/Monkey.jpg";" width="350" height="350"  ></i>
+<p style='margin-top:20px;margin-right: 300px;' >
+<b> <br/>Most species are arboreal, using all four limbs to leap from tree to tree. <br/>
+<br/><br/>They can sit upright and stand erect. <br/>
+<br/><br/>Most species run along branches rather than swinging arm over arm like the apes.</br>
+<br/><br/>Monkeys are highly social omnivores, organized in clans as large as several hundred individuals headed by an old male.</b>
+</p>

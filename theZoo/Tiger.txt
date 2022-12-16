@@ -1,0 +1,10 @@
+<body  style="background-color:#e6f0e6">
+<i><img align='left' style='margin-left: 300px; margin-right: 50px; margin-top: 20px;' src="./theZoo/Tiger.jpg";" width="350" height="350"  ></i>
+<p style='margin-top:20px; margin-right: 300px;' >
+<b> <br/>The tiger has a muscular body with strong forelimbs, a large head and a tail that is about half the length of its body. <br/>
+<br/>Its pelage colouration varies between shades of orange with a white underside and distinctive vertical black stripes; the patterns of which are unique in each individual.<br/>
+</p>
+
+
+
+
